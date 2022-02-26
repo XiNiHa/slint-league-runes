@@ -1188,18 +1188,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "hello-slint"
-version = "0.1.0"
-dependencies = [
- "reqwest",
- "serde",
- "serde_derive",
- "slint",
- "slint-build",
- "toml",
-]
-
-[[package]]
 name = "hermit-abi"
 version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2802,6 +2790,18 @@ dependencies = [
  "i-slint-compiler",
  "spin_on",
  "thiserror",
+]
+
+[[package]]
+name = "slint-league-runes"
+version = "0.1.0"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_derive",
+ "slint",
+ "slint-build",
+ "toml",
 ]
 
 [[package]]
