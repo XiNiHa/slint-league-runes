@@ -1,0 +1,25 @@
+import { Button } from "std-widgets.slint";
+
+export Rune := Button {
+  property <image> rune;
+  property <bool> active: false;
+  icon: rune;
+  opacity: 1;
+  clicked => { self.active = !self.active; }
+  border-width: 0;
+
+  states [
+    inactive when !active : {
+      opacity: 0.5;
+    }
+  ]
+
+  transitions [
+    in inactive : {
+      animate opacity { duration: 200ms; }
+    }
+    out inactive : {
+      animate opacity { duration: 200ms; }
+    }
+  ]
+}

@@ -1,6 +1,9 @@
+import { Rune } from "Rune.slint";
+
 App := Window {
-  Text {
-    text: "Hello, world!";
-    color: green;
+  VerticalLayout {
+    Rune {
+      rune: @image-url("../resources/images/runes/domination/electrocute.png");
+    }
   }
 }
