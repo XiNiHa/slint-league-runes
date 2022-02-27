@@ -1,25 +1,40 @@
 import { Button } from "std-widgets.slint";
 
-export Rune := Button {
-  property <image> rune;
+export struct Rune := {
+  name: string,
+  icon: image,
+}
+
+export RuneButton := Button {
+  property <Rune> rune;
   property <bool> active: false;
-  icon: rune;
-  opacity: 1;
-  clicked => { self.active = !self.active; }
+  property <string> type: "sub";
+
+  opacity: active ? 1 : 0.5;
   border-width: 0;
+  background: transparent;
 
   states [
-    inactive when !active : {
-      opacity: 0.5;
+    keystone when type == "keystone" : {
+      width: 100px;
+      height: 100px;
+    }
+    main when type == "main" : {
+      width: 70px;
+      height: 70px;
+    }
+    sub when type == "sub" : {
+      width: 50px;
+      height: 50px;
     }
   ]
 
-  transitions [
-    in inactive : {
-      animate opacity { duration: 200ms; }
-    }
-    out inactive : {
-      animate opacity { duration: 200ms; }
-    }
-  ]
+  animate opacity { duration: 200ms; }
+  clicked => { self.active = !self.active; }
+
+  Image {
+    source: rune.icon;
+    width: 100%;
+    height: 100%;    
+  }
 }

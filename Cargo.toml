@@ -2,12 +2,19 @@
 name = "slint-league-runes"
 version = "0.1.0"
 edition = "2021"
-build = "build.rs"
+
+[workspace]
+members = [
+  "ui"
+]
 
 [dependencies]
 slint = "0.2.0"
+serde = "1.0.136"
+serde_derive = "1.0.136"
+toml = "0.5.8"
+slint-league-runes-ui = { path = "./ui" }
 
 [build-dependencies]
-slint-build = "0.2.0"
 reqwest = { version = "0.11.9", features = ["blocking"] }
 toml = "0.5.8"

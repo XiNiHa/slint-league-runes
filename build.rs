@@ -4,7 +4,6 @@ use std::{
     io, thread,
 };
 
-use slint_build::*;
 use toml::{value::Table, Value};
 
 fn add_to_map(
@@ -57,6 +56,4 @@ fn main() {
     for handle in handles {
         handle.join().unwrap();
     }
-
-    compile("ui/App.slint").unwrap();
 }

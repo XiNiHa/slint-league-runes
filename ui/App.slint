@@ -1,9 +1,25 @@
-import { Rune } from "Rune.slint";
+import { RuneTree } from "RuneTree.slint";
+import { MainRuneTree } from "MainRuneTree.slint";
+import { SubRuneTree } from "SubRuneTree.slint";
 
 App := Window {
-  VerticalLayout {
-    Rune {
-      rune: @image-url("../resources/images/runes/domination/electrocute.png");
+  property <RuneTree> main_rune_tree;
+  property <RuneTree> sub_rune_tree;
+
+  HorizontalLayout {
+    VerticalLayout {
+      alignment: end;
+
+      MainRuneTree {
+        tree: main_rune_tree;
+      }
+    }
+    VerticalLayout {
+      alignment: end;
+
+      SubRuneTree {
+        tree: sub_rune_tree;
+      }
     }
   }
 }

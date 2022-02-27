@@ -1,0 +1,31 @@
+import { RuneTree } from "RuneTree.slint";
+import { Rune, RuneButton } from "Rune.slint";
+
+MainRuneTree := VerticalLayout {
+  property <RuneTree> tree;
+
+  HorizontalLayout {
+    alignment: center;
+    padding-bottom: 4px;
+
+    for keystone in tree.keystones: RuneButton {
+      type: "keystone";
+      rune: keystone;
+    }
+  }
+  for slot in tree.slots: HorizontalLayout {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    alignment: center;
+
+    for r in slot: HorizontalLayout {
+      padding-left: 8px;
+      padding-right: 8px;
+
+      RuneButton {
+        type: "main";
+        rune: r;
+      }
+    }
+  }
+}

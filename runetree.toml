@@ -1,0 +1,131 @@
+[precision]
+name = "Precision"
+icon = "./resources/images/runes/precision.png"
+keystones = [
+  {name = "Press the Attack", icon = "./resources/images/runes/precision/presstheattack.png"},
+  {name = "Lethal Tempo", icon = "./resources/images/runes/precision/lethaltempo.png"},
+  {name = "Fleet Footwork", icon = "./resources/images/runes/precision/fleetfootwork.png"},
+  {name = "Conqueror", icon = "./resources/images/runes/precision/conqueror.png"},
+]
+slots = [
+  [
+    {name = "Overheal", icon = "./resources/images/runes/precision/overheal.png"},
+    {name = "Triumph", icon = "./resources/images/runes/precision/triumph.png"},
+    {name = "Presence of Mind", icon = "./resources/images/runes/precision/presenceofmind.png"},
+  ],
+  [
+    {name = "Legend: Alacritty", icon = "./resources/images/runes/precision/legendalacritty.png"},
+    {name = "Legend: Tenacity", icon = "./resources/images/runes/precision/legendtenacity.png"},
+    {name = "Legend: Bloodline", icon = "./resources/images/runes/precision/legendbloodline.png"},
+  ],
+  [
+    {name = "Coup de grace", icon = "./resources/images/runes/precision/coupdegrace.png"},
+    {name = "Cutdown", icon = "./resources/images/runes/precision/cutdown.png"},
+    {name = "Last Stand", icon = "./resources/images/runes/precision/laststand.png"},
+  ]
+]
+
+[domination]
+name = "Domination"
+icon = "./resources/images/runes/domination.png"
+keystones = [
+  {name = "Electrocute", icon = "./resources/images/runes/domination/lectrocute.png"},
+  {name = "Dark Harvest", icon = "./resources/images/runes/domination/darkharvest.png"},
+  {name = "Predator", icon = "./resources/images/runes/domination/predator.png"},
+  {name = "Hail of Blades", icon = "./resources/images/runes/domination/hailofblades.png"},
+]
+slots = [
+  [
+    {name = "Cheap Shot", icon = "./resources/images/runes/domination/cheapshot.png"},
+    {name = "Taste of Blood", icon = "./resources/images/runes/domination/tasteofblood.png"},
+    {name = "Sudden Impact", icon = "./resources/images/runes/domination/suddenimpact.png"},
+  ],
+  [
+    {name = "Zombie Ward", icon = "./resources/images/runes/domination/zombieward.png"},
+    {name = "Ghost Poro", icon = "./resources/images/runes/domination/ghostporo.png"},
+    {name = "Eyeball Collection", icon = "./resources/images/runes/domination/eyeballcollection.png"},
+  ],
+  [
+    {name = "Ravenous Hunter", icon = "./resources/images/runes/domination/ravenoushunter.png"},
+    {name = "Ingenious Hunter", icon = "./resources/images/runes/domination/ingenioushunter.png"},
+    {name = "Relentless Hunter", icon = "./resources/images/runes/domination/relentlesshunter.png"},
+  ]
+]
+
+[sorcery]
+name = "Sorcery"
+icon = "./resources/images/runes/sorcery.png"
+keystones = [
+  {name = "Summon Aery", icon = "./resources/images/runes/sorcery/summonaery.png"},
+  {name = "Arcane Comet", icon = "./resources/images/runes/sorcery/arcanecomet.png"},
+  {name = "Phase Rush", icon = "./resources/images/runes/sorcery/phaserush.png"},
+]
+slots = [
+  [
+    {name = "Nullifying Orb", icon = "./resources/images/runes/sorcery/nullifyingorb.png"},
+    {name = "Manaflow Band", icon = "./resources/images/runes/sorcery/manaflowband.png"},
+    {name = "Nimbus Cloak", icon = "./resources/images/runes/sorcery/nimbuscloak.png"},
+  ],
+  [
+    {name = "Transcendence", icon = "./resources/images/runes/sorcery/transcendence.png"},
+    {name = "Celerity", icon = "./resources/images/runes/sorcery/celerity.png"},
+    {name = "Absolute Focus", icon = "./resources/images/runes/sorcery/absolutefocus.png"},
+  ],
+  [
+    {name = "Scorch", icon = "./resources/images/runes/sorcery/scorch.png"},
+    {name = "Waterwalking", icon = "./resources/images/runes/sorcery/waterwalking.png"},
+    {name = "Gathering Storm", icon = "./resources/images/runes/sorcery/gatheringstorm.png"},
+  ]
+]
+
+[resolve]
+name = "Resolve"
+icon = "./resources/images/runes/resolve.png"
+keystones = [
+  {name = "Grasp of the Undying", icon = "./resources/images/runes/resolve/graspoftheundying.png"},
+  {name = "Aftershock", icon = "./resources/images/runes/resolve/aftershock.png"},
+  {name = "Guardian", icon = "./resources/images/runes/resolve/guardian.png"},
+]
+slots = [
+  [
+    {name = "Demolish", icon = "./resources/images/runes/resolve/demolish.png"},
+    {name = "Font of Life", icon = "./resources/images/runes/resolve/fontoflife.png"},
+    {name = "Shield Bash", icon = "./resources/images/runes/resolve/shieldbash.png"},
+  ],
+  [
+    {name = "Conditioning", icon = "./resources/images/runes/resolve/conditioning.png"},
+    {name = "Second Wind", icon = "./resources/images/runes/resolve/secondwind.png"},
+    {name = "Bone Plating", icon = "./resources/images/runes/resolve/boneplating.png"},
+  ],
+  [
+    {name = "Overgrowth", icon = "./resources/images/runes/resolve/overgrowth.png"},
+    {name = "Revitalize", icon = "./resources/images/runes/resolve/revitalize.png"},
+    {name = "Unflinching", icon = "./resources/images/runes/resolve/unflinching.png"},
+  ]
+]
+
+[inspiration]
+name = "Inspiration"
+icon = "./resources/images/runes/inspiration.png"
+keystones = [
+  {name = "Glacial Augment", icon = "./resources/images/runes/inspiration/glacialaugment.png"},
+  {name = "Unsealed Spellbook", icon = "./resources/images/runes/inspiration/unsealedspellbook.png"},
+  {name = "First Strike", icon = "./resources/images/runes/inspiration/firststrike.png"},
+]
+slots = [
+  [
+    {name = "Hextech Flashtraption", icon = "./resources/images/runes/inspiration/hextechflashtraption.png"},
+    {name = "Magical Footwear", icon = "./resources/images/runes/inspiration/magicalfootwear.png"},
+    {name = "Perfect Timing", icon = "./resources/images/runes/inspiration/perfecttiming.png"},
+  ],
+  [
+    {name = "Future's Market", icon = "./resources/images/runes/inspiration/futuresmarket.png"},
+    {name = "Minion Dematerializer", icon = "./resources/images/runes/inspiration/miniondematerializer.png"},
+    {name = "Biscuit Delivery", icon = "./resources/images/runes/inspiration/biscuitdelivery.png"},
+  ],
+  [
+    {name = "Cosmic Insight", icon = "./resources/images/runes/inspiration/cosmicinsight.png"},
+    {name = "Approach Velocity", icon = "./resources/images/runes/inspiration/approachvelocity.png"},
+    {name = "Time Warp Tonic", icon = "./resources/images/runes/inspiration/timewarptonic.png"},
+  ]
+]
